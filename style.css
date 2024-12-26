@@ -3,17 +3,21 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0 12vw;
+    height: 100vh;
+    background-color: #0E0E0E;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 0 14vw;
+    padding: 0 10vw;
     
 }
 .header p {
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
     margin: 0;
     padding-top: 20px;
@@ -32,11 +36,54 @@ body {
 .headerExtended {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 90px 10vw;
+    gap: 50px;
+}
+
+.headerExtLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 400px;
+}
+
+#aa {
+    display: flex;
+    border-radius: 8px;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    background-color: #3882f6;
+    color: white;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 220px;
+    font-size: 18px;
+    background-color: #6D747D;
+    
 }
 
 #h1header {
+    margin: 0;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -45,6 +92,18 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
-    
+    font-size: 18px; 
+}
+
+.container-one, .container-three {
+    background-color: white;
+}
+
+.container-two {
+    background-color: #e5e7eb;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    height: 100vh;
 }
