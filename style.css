@@ -160,12 +160,13 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 130px 280px;
+    
 }
 .quote {
     font-size: 36px;
     font-style: italic;
     transform: scale(1, 1.2);
-    font-weight: 250;
+    font-weight: 350;
     color: #1F2937;
     margin: 0;
 }
@@ -189,11 +190,22 @@ h2 {
     CONTAINER THREE CSS RULES
 =======================================
 */
+
+.container-three {
+    padding: 100px 0;
+
+}
 .blue-call-to-action {
     background-color: #3882f6;
-    margin: 200px;
+    margin: auto;
+    width: 50vw;
+    height: 160px;
+    border-radius: 8px;
     display: flex;
+    flex: 1;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .blue-call-to-action-text {
@@ -202,4 +214,46 @@ h2 {
     flex-direction: column;
 }
 
+.cta1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
 
+.cta2 {
+    margin:0;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#bb {
+    width: 135px;
+    height: 37px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-width: 2px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+/*
+=======================================
+            FOOTER CSS
+=======================================
+*/
+.footer {
+    background-color: #1F2937;
+    height: 100px; 
+    padding: 5vh;
+}
+
+.footer p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: auto;
+}
